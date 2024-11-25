@@ -225,7 +225,7 @@ For population data-sets without replicates, this function will find the outputs
 **if.mergingBins:** Logical argument if merging consecutive bins having the same stateCalls should be performed. By default set to TRUE. (logical)
 
 ```{r echo = TRUE, message = FALSE, warning=FALSE, results='hide'}
-filterDMRmatrix(epiMAF.cutoff = NULL, replicate.consensus = 0.5,
+filterDMRmatrix(epiMAF.cutoff = 0.33, replicate.consensus = NULL,
                 data.dir = "./population/matrix",
                 samplelist = listFiles1, if.mergingBins = FALSE)
 ```
