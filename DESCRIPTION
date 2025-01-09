@@ -52,6 +52,6 @@ Suggests:
     rmarkdown,
     testthat (>= 3.0.0)
 biocViews: Epigenetics, FunctionalGenomics, Genetics, MathematicalBiology, HiddenMarkovModel
-URL: https://github.com/robert-piecyk/jDMRgrid
-BugReports: https://github.com/robert-piecyk/jDMRgrid
+URL: https://github.com/jlab-code/jDMRgrid
+BugReports: https://github.com/jlab-code/jDMRgrid
 Config/testthat/edition: 3
